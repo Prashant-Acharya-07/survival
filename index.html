@@ -6,20 +6,7 @@
   <title>Haus of Bakes – Artisan Bakery, Butwal</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
   <style>
-    header {
-  position: fixed;   /* keeps logo at top when scrolling */
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: white; /* prevents overlap with text */
-  padding: 10px;
-  z-index: 1000;     /* keeps header above other elements */
-}
-
-.logo {
-  width: 150px;      /* adjust size */
-  height: auto;      /* keeps proportions */
-}
+   
 
 @media (max-width: 600px) {
   .logo {
@@ -257,19 +244,20 @@
       .loc-cards{flex-direction:column;}
       .cart-drawer{width:100%;}
     }
+    .nav-logo img {
+  height: 50px;
+  width: auto;
+}
   </style>
 </head>
 <body>
   
-  <header>
-  <img src="logo.jpg" alt="Bakery Logo" class="logo">
-</header>
 
 
 <!-- NAVBAR -->
 <nav id="navbar">
   <a href="#home" class="nav-logo">
- <img src="logo.jpg" alt="Bakery Logo" width="150">
+ <img src="logo.jpg" style="height:50px;">
 
     <div>
       <span class="logo-text">Haus of Bakes</span>
